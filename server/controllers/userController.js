@@ -16,7 +16,7 @@ class UserController {
         User.findOne({where: {email}})
         .then(output => {
             if (output) {
-                if (comparePass(password, output.password)) {
+                if (checkPass(password, output.password)) {
                     const access_token = generateToken({
                         id: output.id,
                         email: output.email
