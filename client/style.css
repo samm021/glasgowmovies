@@ -1,0 +1,84 @@
+body {
+    background-color: #14181c;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: whitesmoke;
+}
+/* div {
+    padding: 5px;
+    margin: 5px;
+} */
+
+#auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.card {
+    background-color: #222831;
+    width: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.form-control {
+    text-indent: 14px
+}
+
+#big-div {
+    display: flex;
+    flex-flow: column wrap;
+    width: auto;
+    height: 1000px;
+    margin: 10px auto;
+}
+
+#flex-container-one {
+    flex-grow: 1;
+}
+
+#flex-container-two {
+    flex-grow: 6;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container div {
+    border: none;   
+    margin: 2px;
+    flex: 1;
+    border-radius: 20px;
+}
+
+#flex-one {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#flex-two {
+    border: none;
+    flex-grow: 1.5;
+    /* background-color: #374045; */
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#sub-flex-one {
+    background-color: #222831;
+}
+
+#sub-flex-two {
+    padding: 10px;
+    border: none;
+    margin: 2px;
+    flex: 1;
+    border-radius: 20px;
+    background-color: rgb(82, 93, 104);
+}
+
